@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samuvel R | Personal Website</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f4f4;
+color:#333;
+}
+
+header{
+background:#0077cc;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+nav{
+background:#222;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+}
+
+section{
+padding:40px;
+text-align:center;
+}
+
+.card{
+background:white;
+max-width:700px;
+margin:auto;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+button{
+margin-top:20px;
+padding:12px 25px;
+background:#0077cc;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+background:#005fa3;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Samuvel R</h1>
+<p>AI & DS Student | Python Developer | Web Developer</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<div class="card">
+<h2>About Me</h2>
+<p>Hello! I'm Samuvel.</p>
+<p>I love coding, Python, Web Development and Game Development.</p>
+</div>
+</section>
+
+<section id="skills">
+<div class="card">
+<h2>Skills</h2>
+<p>✅ Python</p>
+<p>✅ HTML</p>
+<p>✅ CSS</p>
+<p>✅ GitHub</p>
+</div>
+</section>
+
+<section id="contact">
+<div class="card">
+<h2>Contact</h2>
+<p>Email: samuvel52@gmail.com</p>
+
+<button onclick="showMessage()">Click Me</button>
+
+<p id="msg"></p>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Samuvel R. All Rights Reserved.</p>
+</footer>
+
+<script>
+function showMessage(){
+document.getElementById("msg").innerHTML="Thanks for visiting my website ❤️";
+}
+</script>
+
+</body>
+</html>
